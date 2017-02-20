@@ -5,5 +5,6 @@ begin
 	into v_first_name
 	from employees
 	where employee_id = 100;
+	dbms_output.put_line('The firstname of employee with id 100: ' || v_first_name);
 end;
 /
