@@ -20,6 +20,7 @@ update salary from employees where employee_id=x; ## update salary for employee
 select department_id from departments; ## get all the departments
 select count(employee_id) from employees where department_id=x; ## count employees for a department
 
+## selecting all 
 select department_id
 from employees
 where department_id in
